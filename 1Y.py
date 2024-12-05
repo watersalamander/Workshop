@@ -9,7 +9,7 @@ with col2:
 
 col4, col5, col6 = st.columns([1,1,1])
 with col5:
-    st.title("Workshop 1")
+    st.header("Workshop 1")
 
 gold = st.number_input('Percentage in Gold',
                        min_value=0.0,
