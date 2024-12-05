@@ -6,8 +6,6 @@ st.set_page_config(page_title="Allocation",
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("https://moneyexpo.net/wp-content/uploads/2024/04/Merkel.jpg", use_column_width=True)
-  
-st.title("Workshop 1")
 
 gold = st.number_input('Percentage in Gold',
                        min_value=0.0,
