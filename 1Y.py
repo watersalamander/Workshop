@@ -7,10 +7,6 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("https://moneyexpo.net/wp-content/uploads/2024/04/Merkel.jpg", use_column_width=True)
 
-col4, col5, col6 = st.columns([1,1,1])
-with col5:
-    st.header("Workshop 1")
-
 gold = st.number_input('Percentage in Gold',
                        min_value=0.0,
                        max_value=100.0,
